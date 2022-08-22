@@ -5,5 +5,8 @@ def getTabuada10(n):
         r = n*i
         print(f'{n} x {i} = {r}')
 
-valor = int(input("Digite um número: "))
-getTabuada10(valor)
+valor = input("Digite um número inteiro: ")
+if type(valor) != int or valor < 0:
+    print('Valor inválido!')
+else:
+    getTabuada10(valor)
