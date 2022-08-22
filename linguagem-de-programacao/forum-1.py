@@ -20,5 +20,10 @@ def letra_b():
     str = input("Digite uma string: ")
     str_embaralhada = embaralhar(str)
     print(str_embaralhada)
-    
+
+print('A - Tabuada do 10 de um número inserido pelo usuário')
+letra_a()
+print('Fim da letra A')
+print('B - Embaralhar uma string inserida pelo usuário')
 letra_b()
+print('Fim da letra B')
