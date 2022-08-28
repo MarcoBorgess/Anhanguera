@@ -1,3 +1,3 @@
-# UNIME
+# Anhanguera
 
-## Engenharia de Software - Atividades
+## Engenharia de Software
